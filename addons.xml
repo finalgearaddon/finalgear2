@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.finalgear" name="FinalGear" version="1.4" provider-name="Griffin">
+<addon id="plugin.video.finalgear" name="FinalGear" version="1.5" provider-name="Griffin">
         <requires>
                 <import addon="xbmc.python" version="2.19.0" />
                 <import addon="script.module.nanscrapers" version="0.5.5" />
                 <import addon="script.module.python.koding.aio" version="0.9.6.6"/>
-                <import addon="script.module.liveresolver" version="0.1.47" />
                 <import addon="script.module.beautifulsoup" version="3.2.1"/>
                 <import addon="script.module.requests" version="2.9.1" />
                 <import addon="script.module.addon.common" version="2.0.0" />
@@ -19,7 +18,7 @@
         <extension point="xbmc.service" library="service.py" start="[login|startup]">
               </extension>
         <extension point="xbmc.addon.metadata">
-          <summary lang="en">FinalGear by Griffin thanks to Midraal for his Jen code</summary>
+          <summary lang="en">FinalGear by Griffin_303</summary>
           <description lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</description>
           <platform>all</platform>
           <forum>http://www.noobsandnerds.com/support/forumdisplay.php?fid=253</forum>
@@ -29,7 +28,7 @@
         </extension>
 </addon>
 
-<addon id="repository.arb" name="FinalGear Repository" version="1.0" provider-name="Griffin">
+<addon id="repository.finalgear" name="FinalGear Repository" version="1.1" provider-name="Griffin">
 	<extension point="xbmc.addon.repository" name="FinalGear Repository">
 		<info compressed="false">http://raw.github.com/finalgearaddon/finalgear2/master/addons.xml</info>
 		<checksum>http://raw.github.com/finalgearaddon/finalgear2/master/addons.xml.md5</checksum>
